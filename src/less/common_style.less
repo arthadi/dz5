@@ -1,0 +1,102 @@
+@import "variable";
+.page{
+  background-color: @back-color;
+}
+
+.full-screen::after{
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100vw;
+  background-color: inherit;
+  position:absolute;
+  top: 0;
+  margin: auto;
+  left: -50vw;
+  right: -50vw;
+  z-index: -2;
+}
+
+.full-screen-left::after{
+  content: '';
+  display: block;
+  height: 100%;
+  width: 50vw;
+  background-color: inherit;
+  position:absolute;
+  top: 0;
+  margin: auto;
+  left: -50vw;
+  z-index: -2;
+}
+
+.item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  align-self: center;
+  margin-right: 18px;
+  transition: .3s;
+}
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+}
+
+.img{
+  max-width: 100%;
+}
+
+.figure{
+  margin: 0;
+}
+
+//header
+.header{
+  min-height: 200px;
+  max-width: 1280px;
+  margin: auto;
+  padding: 0 @interval;
+}
+
+.header__main{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.aside{
+  display: flex;
+  width: 24%;
+  padding-right: @interval;
+  flex-direction: column;
+}
+
+.main{
+  display: flex;
+  width: 76%;
+  flex-direction: column;
+}
+
+.footer{
+  display: flex;
+  max-width: 1280px;
+  margin: auto;
+  padding: 0 @interval;
+  flex-direction: column;
+  background-color: @dark-color;
+  position: relative;
+}
+
+

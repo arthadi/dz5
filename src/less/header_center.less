@@ -1,0 +1,193 @@
+@import "variable";
+//header main content
+.header-main-center__content{
+  display: flex;
+  flex-grow: 3;
+}
+
+.header-main__logo{
+  padding: 22px 0 19px 0;
+  margin-left: -5px;
+  margin-right: 30px;
+  width: 238px;
+  flex-grow: 1;
+  flex-shrink: 3;
+}
+
+.logo__link{
+  overflow: hidden;
+}
+
+.main-logo{
+  width: 193px;
+  fill: @dark-color;
+}
+
+.header-main__search{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 3;
+  flex-shrink: 0;
+  justify-content: space-between;
+  align-content: flex-start;
+  padding: 9px 0 0 0;
+  width: 205px;
+}
+
+.header-main__connect{
+  display: flex;
+  align-self: flex-start;
+  padding-left: 5px;
+  flex-wrap: wrap;
+}
+
+.header-main-connect__tel, .header-main-connect__email{
+  display: flex;
+  margin-right: 10px;
+  fill: @main-color;
+}
+
+.header-main__telefon, .header-main__mail{
+  width: 20px;
+  height: 20.07px;
+}
+
+.header-main__link{
+  padding-left: 8px;
+  font-style: normal;
+  color: @dark-color;
+}
+.header-main__link:link {
+  color: @dark-color;
+}
+
+.header-main__link:visited {
+  color: @dark-color;
+}
+
+.header-main__link:hover {
+  color: @main-color;
+}
+
+.header-main__link:focus {
+  color: @orange_color;
+  fill: @orange_color;
+}
+
+.header-main__link:active {
+  color: @orange_color;
+  fill: @orange_color;
+}
+
+.form__search{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  padding-bottom: 48px;
+}
+
+.search__input{
+  border: 1px solid @gray-color;
+  width: 73%;
+  padding-left: 10px;
+}
+
+.search__button{
+  display: flex;
+  background-color: @main-color;
+  border: 0;
+  fill: @gray-color;
+  transition: .3s;
+}
+
+.search__button:hover{
+  fill: @back-color;
+}
+
+.search__button:active{
+  fill: @orange_color;
+}
+
+.search__button:focus{
+  fill: @orange_color;
+}
+
+.search__button:disabled{
+  fill: @dark-color;
+}
+
+.icon_search{
+  margin: 7.5px 13px 6.5px 13px;
+  width: 23px;
+}
+
+.basket{
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  width: 185px;
+  height: 37px;
+  border: 1px solid @gray-color;
+  justify-content: space-between;
+  margin-left: 8%;
+  margin-bottom: 48px;
+}
+
+.basket__cost{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: @main-color;
+  align-self: center;
+  padding-left: 8px;
+}
+
+.basket__button{
+  display: flex;
+}
+
+.basket__count{
+  background-color: @main-color;
+  height: 25px;
+  width: 25px;
+  align-self: center;
+  margin-right: 10px;
+  border-radius: 12.5px;
+  text-align: center;
+  line-height:1.6;
+  color: @back-color;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.basket__link{
+  display: flex;
+  align-items: center;
+  height: 37px;
+  background-color: @main-color;
+  fill: @gray-color;
+  margin-right: 0;
+  padding: 0 11px;
+}
+
+.basket__link:hover{
+  fill: @back-color;
+  background-color: @main-color;
+}
+
+.basket__link:active{
+  fill: @orange_color;
+}
+
+.basket__link:focus{
+  fill: @orange_color;
+}
+
+.basket__link:disabled{
+  fill: @dark-color;
+}
+
+.icon_basket{
+  width: 28px;
+}

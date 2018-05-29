@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>lesson2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
+    <meta name="format-detection" content="telephone=no,date=no,address=no,e-mail=no,url=no">
+    <!--<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500" rel="stylesheet">-->
+    <link rel="preload" href="font/fp-export-1527590118/Ubuntu-Light.woff" as="font" type="font/woff" crossorigin>
+
+    <link rel="stylesheet" href="css/styleMain.css">
+    <!--<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">-->
+    <!--<script defer src=""></script>-->
+</head>
+<body class="page">
+<!--Хедер-->
+<header class="header">
+<!--Верхнее меню-->
+        <div class="header__top-menu ">
+            <ul class="header__top-menu-action full-screen-left">
+                <li class="top-menu-action__item item">
+                    <a class="top-menu-action__link link" href="#">
+                        <svg class="icon-entry interval-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.47 14.56">
+                            <use xlink:href="img/icon_entry.svg#entry"></use>
+                        </svg>
+                        <span class="span">вход</span>
+                    </a>
+                </li>
+                <li class="top-menu-action__item item">
+                    <a class="top-menu-action__link link" href="#">
+                        <svg class="icon-favourites interval-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16.99 14.56">
+                            <use xlink:href="img/icon_favourites.svg#favourites"></use>
+                        </svg>
+                        <span class="span">избранное</span>
+                    </a>
+                </li>
+                <li class="top-menu-action__item item">
+                    <a class="top-menu-action__link link" href="#">
+                        <svg class="icon_compare interval-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.1 11.32">
+                            <use xlink:href="img/icon_compare.svg#compare"></use>
+                        </svg>
+                        <span class="span">сравнение</span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="header__social-network">
+                <li class="social-network__item item">
+                    <a class="social-network__link link" href="#">
+                        <svg class="icon-vk" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24.86 14.18">
+                            <use xlink:href="img/icon_vk.svg#vk"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-network__item item">
+                    <a class="social-network__link" href="#">
+                        <svg class="icon_fb" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9.94 21.33">
+                            <use xlink:href="img/icon_fb.svg#fb"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-network__item item">
+                    <a class="social-network__link link" href="#">
+                        <svg class="icon_tw" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.4 16.57">
+                            <use xlink:href="img/icon_tw.svg#tw"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+<!--Основной контент хедера-->
+        <div class="header__main">
+            <div class="header-main__logo">
+                <a class="logo__link link" href="index.html">
+                    <svg class="main-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 159.27 63.28">
+                        <use xlink:href="img/main_logo.svg#main_logo"></use>
+                    </svg>
+                </a>
+            </div>
+            <div class="header-main-center__content">
+                <div class="header-main__search">
+                    <div class="header-main__connect">
+                        <address class="header-main-connect__tel">
+                            <svg class="header-main__telefon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.48 19.49">
+                                <use xlink:href="img/icon_tel.svg#tel"></use>
+                            </svg>
+                            <a class="header-main__link link" href="#">8(800)684-55-94</a>
+                        </address>
+                        <address class="header-main-connect__email">
+                            <svg class="header-main__mail" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.49 16.1">
+                                <use xlink:href="img/icon_mail.svg#mail"></use>
+                            </svg>
+                            <a class="header-main__link link" href="#">info@nalabuten.ah</a>
+                        </address>
+                    </div>
+                    <form class="form__search" method="get">
+                        <input class="search__input form__input" type="search" name="search" placeholder="Поиск">
+                        <button class="search__button form__button" type="submit">
+                            <svg class="icon_search" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22.76 22.76">
+                                <use xlink:href="img/icon_search.svg#search"></use>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+                <div class="basket">
+                    <p class="basket__cost">7 500 p.</p>
+                    <div class="basket__button">
+                        <p class="basket__count">2</p>
+                        <a class="basket__link link" href="basket.html">
+                            <svg class="icon_basket" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 23.69">
+                                <use xlink:href="img/icon_basket.svg#basket"></use>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--Главное меню-->
+        <nav class="header__main-menu">
+            <button class="button__hide-menu form__button js-hide-menu">
+                <svg class="hide__menu form__button js-hide-menu icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10.29 8.57">
+                    <use xlink:href="img/icon_hide_menu.svg#hide-menu"></use>
+                </svg>
+            </button>
+            <ul class="menu__main menu full-screen">
+                <li class="menu__item item">
+                    <a class="menu__link link" href="index.html">Главная</a>
+                </li>
+                <li class="menu__item item">
+                    <a class="menu__link link" href="catalogue.html">Каталог</a>
+                </li>
+                <li class="menu__item item">
+                    <a class="menu__link link" href="gallery.html">Галерея</a>
+                </li>
+                <li class="menu__item item">
+                    <a class="menu__link link" href="stock.html">Акции</a>
+                </li>
+                <li class="menu__item item">
+                    <a class="menu__link link" href="contacts.html">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+</header>
+<div class="main__content">
+    <div class="main__gray-back full-screen"></div>
+    <main class="main">
+<!--Слайдер-->
+        <div class="main__slider">
+            <button class="arrow__left slider__arrow form__button ">
+                <svg class="icon-arrow-left icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14.91 25.21">
+                    <use xlink:href="img/icon_arrow_left.svg#icon_arrow_left"></use>
+                </svg>
+            </button>
+            <button class="arrow__right slider__arrow form__button">
+                <svg class="icon-arrow-right icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14.91 25.21">
+                    <use xlink:href="img/icon_arrow_right.svg#icon_arrow_right"></use>
+                </svg>
+            </button>
+            <div class="slider__counter">
+                <button class="button__counter form__button button_counter-active"></button>
+                <button class="button__counter form__button"></button>
+                <button class="button__counter form__button"></button>
+                <button class="button__counter form__button"></button>
+            </div>
+            <img class="pict__fon img" src="img/fon.png" alt="stainway"/>
+            <div class="slider__inner">
+                <div class="slide">
+                    <div class="slide__text">
+                        <h2 class="slide__headline">Steinway</h2>
+                        <p class="slide__p">уникальные и самые дорогие</p>
+                    </div>
+                    <a class="slide__link link" href="#">
+                        <img class="pict__shoes img" src="img/Slaid_01.jpg" alt="stainway"/>
+                    </a>
+                </div>
+            </div>
+        </div>
+<!--Предложения  -->
+        <ul class="proposals__content">
+            <li class="proposals__item">
+                <a class="proposals__link link" href="galery.html">
+                    <svg class="icon-kard icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36.78 29.42">
+                        <use xlink:href="img/icon_kard.svg#icon_kard"></use>
+                    </svg>
+                    <div class="proposals__title">
+                        <h3 class="proposals__headline">Продажа</h3>
+                        <p class="proposals__text">Широкий ассортимент</p>
+                    </div>
+                </a>
+            </li>
+            <li class="proposals__item">
+                <a class="proposals__link link" href="stock.html">
+                    <svg class="icon-hammer icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.13 33.12">
+                        <use xlink:href="img/icon_hammer.svg#icon_hammer"></use>
+                    </svg>
+                    <div class="proposals__title">
+                        <h3 class="proposals__headline">Скидки</h3>
+                        <p class="proposals__text">Невообразимо низкие цены</p>
+                    </div>
+                </a>
+            </li>
+            <li class="proposals__item">
+                <a class="proposals__link link" href="stock.html">
+                    <svg class="icon-kard icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36.78 29.42">
+                        <use xlink:href="img/icon_kard.svg#icon_kard"></use>
+                    </svg>
+                    <div class="proposals__title">
+                        <h3 class="proposals__headline">Продажа</h3>
+                        <p class="proposals__text">Широкий ассортимент</p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+<!--раздел Новинки-->
+        <section class="section__main">
+            <div class="section-headline">
+                <h2 class="section__headline">Новинки</h2>
+            </div>
+<!--товары-->
+            <div class="sections__item">
+                <figure class="section__new figure">
+                    <span class="label">new</span>
+                    <a class="section-item__link link" href="#">
+                        <img class="section__pict img" src="img/piano_smol.jpg" alt="туфли">
+                    </a>
+                    <h5 class="item__title">Steinway</h5>
+                    <p class="item__cost">35 000 р.</p>
+                    <form class="section__form" method="post">
+                        <button class="button__one-clik form__button" type="submit">
+                            в один клик
+                        </button>
+                        <button class="new__button basket-new__button form__button" type="submit">
+                            <svg class="icon_basket icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 23.69">
+                                <use xlink:href="img/icon_basket.svg#basket"></use>
+                            </svg>
+                        </button>
+                    </form>
+                </figure>
+                <figure class="section__new figure">
+                    <span class="label">new</span>
+                    <a class="section-item__link link" href="#">
+                        <img class="section__pict img" src="img/drum_smol.jpg" alt="туфли">
+                    </a>
+                    <h5 class="item__title">Labuten-lady</h5>
+                    <p class="item__cost">35 000 р.</p>
+                    <form class="section__form" method="post">
+                        <button class="button__one-clik form__button" type="submit">
+                            в один клик
+                        </button>
+                        <button class="new__button basket-new__button form__button" type="submit">
+                            <svg class="icon_basket icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 23.69">
+                                <use xlink:href="img/icon_basket.svg#basket"></use>
+                            </svg>
+                        </button>
+                    </form>
+                </figure>
+                <figure class="section__new figure">
+                    <span class="label">new</span>
+                    <a class="section-item__link link" href="#">
+                        <img class="section__pict img" src="img/truba_smol.jpg" alt="туфли">
+                    </a>
+                    <h5 class="item__title">Labuten-lady</h5>
+                    <p class="item__cost">35 000 р.</p>
+                    <form class="section__form" method="post">
+                        <button class="button__one-clik form__button" type="submit">
+                            в один клик
+                        </button>
+                        <button class="new__button basket-new__button form__button" type="submit">
+                            <svg class="icon_basket icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 23.69">
+                                <use xlink:href="img/icon_basket.svg#basket"></use>
+                            </svg>
+                        </button>
+                    </form>
+                </figure>
+                <figure class="section__new figure">
+                    <span class="label">new</span>
+                    <a class="section-item__link link" href="#">
+                        <img class="section__pict img" src="img/piano_smol.jpg" alt="туфли">
+                    </a>
+                    <h5 class="item__title">Labuten-lady</h5>
+                    <p class="item__cost">35 000 р.</p>
+                    <form class="section__form" method="post">
+                        <button class="button__one-clik form__button" type="submit">
+                            в один клик
+                        </button>
+                        <button class="button__figure new__button basket-new__button form__button" type="submit">
+                            <svg class="icon_basket icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 23.69">
+                                <use xlink:href="img/icon_basket.svg#basket"></use>
+                            </svg>
+                        </button>
+                    </form>
+                </figure>
+            </div>
+        </section>
+<!--раздел Товары со скидкой-->
+        <section class="section__main">
+            <div class="section-headline">
+                <h2 class="section__headline">Товары со скидкой</h2>
+            </div>
+<!--товары-->
+            <div class="sections__item">
+                <figure class="section__discounts figure">
+                    <span class="lable__discounts label">-10%</span>
+                    <a class="section-item__link link" href="#">
+                        <img class="section__pict img" src="img/piano_smol.jpg" alt="туфли">
+                    </a>
+                    <h5 class="item__title">Steinway</h5>
+                    <p class="item__cost">35 000 р.</p>
+                    <form class="section__form" method="post">
+                        <button class="button__discounts-figure button__one-clik form__button" type="submit">
+                            в один клик
+                        </button>
+                        <button class="discounts__button basket-discounts__button form__button" type="submit">
+                            <svg class="icon_basket icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 23.69">
+                                <use xlink:href="img/icon_basket.svg#basket"></use>
+                            </svg>
+                        </button>
+                    </form>
+                </figure>
+                <figure class="section__discounts figure">
+                    <span class="lable__discounts label">-10%</span>
+                    <a class="section-item__link link" href="#">
+                        <img class="section__pict img" src="img/drum_smol.jpg" alt="туфли">
+                    </a>
+                    <h5 class="item__title">Labuten-lady</h5>
+                    <p class="item__cost">35 000 р.</p>
+                    <form class="section__form" method="post">
+                        <button class="button__discounts-figure button__one-clik form__button" type="submit">
+                            в один клик
+                        </button>
+                        <button class="discounts__button basket-discounts__button form__button" type="submit">
+                            <svg class="icon_basket icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 23.69">
+                                <use xlink:href="img/icon_basket.svg#basket"></use>
+                            </svg>
+                        </button>
+                    </form>
+                </figure>
+                <figure class="section__discounts figure">
+                    <span class="lable__discounts label">-10%</span>
+                    <a class="section-item__link link" href="#">
+                        <img class="section__pict img" src="img/truba_smol.jpg" alt="туфли">
+                    </a>
+                    <h5 class="item__title">Labuten-lady</h5>
+                    <p class="item__cost">35 000 р.</p>
+                    <form class="section__form" method="post">
+                        <button class="button__discounts-figure button__one-clik form__button" type="submit">
+                            в один клик
+                        </button>
+                        <button class="discounts__button basket-discounts__button form__button" type="submit">
+                            <svg class="icon_basket icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 23.69">
+                                <use xlink:href="img/icon_basket.svg#basket"></use>
+                            </svg>
+                        </button>
+                    </form>
+                </figure>
+                <figure class="section__discounts figure">
+                    <span class="lable__discounts label">-10%</span>
+                    <a class="section-item__link link" href="#">
+                        <img class="section__pict img" src="img/piano_smol.jpg" alt="туфли">
+                    </a>
+                    <h5 class="item__title">Labuten-lady</h5>
+                    <p class="item__cost">35 000 р.</p>
+                    <form class="section__form" method="post">
+                        <button class="button__discounts-figure button__one-clik form__button" type="submit">
+                            в один клик
+                        </button>
+                        <button class="discounts__button basket-discounts__button form__button" type="submit">
+                            <svg class="icon_basket icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 23.69">
+                                <use xlink:href="img/icon_basket.svg#basket"></use>
+                            </svg>
+                        </button>
+                    </form>
+                </figure>
+            </div>
+        </section>
+    </main>
+    <!--Левая колонка-->
+    <aside class="aside">
+        <nav class="aside__menu">
+            <h3 class="aside__title">Категории</h3>
+            <ul class="menu__ul menu">
+                <li class="aside__item menu__tab">
+                    <a class="aside__link link" href="catalogue.html">
+                        <svg class="icon_piano icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.56 28">
+                            <use xlink:href="img/icon_piano.svg#icon_piano"></use>
+                        </svg>
+                        <span class="submenu-tab">Клавишные</span>
+                    </a>
+                </li>
+                <li class="aside__item menu__tab">
+                    <a class="aside__link link" href="catalogue.html">
+                        <svg class="icon_trump icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.56 19">
+                            <use xlink:href="img/icon_trump.svg#icon_trump"></use>
+                        </svg>
+                        <span class="submenu-tab">Духовые</span>
+                    </a>
+                </li>
+                <li class="aside__item menu__tab">
+                    <a class="aside__link link" href="catalogue.html">
+                        <svg class="icon_violin icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35.44 37.15">
+                            <use xlink:href="img/icon_violin.svg#icon_violin"></use>
+                        </svg>
+                        <span class="submenu-tab">Струнные</span>
+                    </a>
+                </li>
+                <li class="aside__item menu__tab">
+                    <a class="aside__link link" href="catalogue.html">
+                        <svg class="icon_drum icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.56 30.13">
+                            <use xlink:href="img/icon_drum.svg#icon_drum"></use>
+                        </svg>
+                        <span class="submenu-tab">Ударные</span>
+                    </a>
+                </li>
+                <li class="aside__item menu__tab">
+                    <a class="aside__link link" href="catalogue.html">
+                        <svg class="icon_sheet_music icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 29.59">
+                            <use xlink:href="img/icon_sheet_music.svg#icon_sheet_music"></use>
+                        </svg>
+                        <span class="submenu-tab">Ноты</span>
+                    </a>
+                </li>
+                <li class="aside__item menu__tab">
+                    <a class="aside__link link" href="catalogue.html">
+                        <svg class="icon_accessories icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.78 26.55">
+                            <use xlink:href="img/icon_accessories.svg#icon_accessories"></use>
+                        </svg>
+                        <span class="submenu-tab">Аксесуары</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="aside__baner">
+            <img class="aside__img img" src="img/Trubach.jpg" alt="топ 20">
+            <img class="aside__img img" src="img/Violiner.jpg" alt="топ">
+        </div>
+    </aside>
+</div>
+<!--Футер-->
+<footer class="footer full-screen">
+<!--Логотип-->
+    <div class="footer__main">
+        <div class="footer__logo footer-menu__conteiner header-main__logo">
+            <a class="logo__link link" href="index.html">
+                <svg class="footer-logo__pict main-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 159.27 63.28">
+                    <use xlink:href="img/main_logo.svg#main_logo"></use>
+                </svg>
+            </a>
+        </div>
+    <!--Главное меню футера-->
+        <div class="footer-menu__conteiner">
+            <h3 class="footer-menu__title ">Меню</h3>
+            <ul class="footer__menu menu__main menu">
+                <li class="footer-menu__item menu__item item">
+                    <a class="footer-menu__link menu__link link" href="index.html">Главная</a>
+                </li>
+                <li class="footer-menu__item menu__item item">
+                    <a class="footer-menu__link menu__link link" href="catalogue.html">Каталог</a>
+                </li>
+                <li class="footer-menu__item menu__item item">
+                    <a class="footer-menu__link menu__link link" href="gallery.html">Галерея</a>
+                </li>
+                <li class="footer-menu__item menu__item item">
+                    <a class="footer-menu__link menu__link link" href="stock.html">Акции</a>
+                </li>
+                <li class="footer-menu__item menu__item item">
+                    <a class="footer-menu__link menu__link link" href="contacts.html">Контакты</a>
+                </li>
+            </ul>
+        </div>
+    <!--Способы оплаты-->
+        <div class="footer-menu__conteiner">
+            <h3 class="footer-menu__title">Оплата</h3>
+            <ul class="footer__menu menu__main menu">
+                <li class="footer-menu__item menu__item item">
+                    <a class="footer-menu__link menu__link link" href="index.html">Наличными</a>
+                </li>
+                <li class="footer-menu__item menu__item item">
+                    <a class="footer-menu__link menu__link link" href="pay.html">Visa или Mastercard</a>
+                </li>
+                <li class="footer-menu__item menu__item item">
+                    <a class="footer-menu__link menu__link link" href="pay.html">В кредит</a>
+                </li>
+            </ul>
+        </div>
+    <!--Контактная информация-->
+        <div class="footer-menu__conteiner">
+            <h3 class="footer-menu__title">Контакты</h3>
+            <ul class="footer__menu menu__main menu">
+                <li class="footer-menu__item menu__item item">
+                    <address class="footer__address">
+                        <a class="footer-menu__link menu__link link" href="#">8(800)684-55-94</a>
+                    </address>
+                </li>
+                <li class="footer-menu__item menu__item item">
+                    <address class="footer__address">
+                        <a class="footer-menu__link menu__link link" href="#">info@nalabuten.ah</a>
+                    </address>
+                </li>
+                <li class="footer-menu__item menu__item item">
+                    <p class="footer__address">Адрес: г. Москва Фантастический проезд д.234</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="copyright full-screen">
+        <small class="copyright__text">&copy; Nalabuten.ah 2017</small>
+    </div>
+</footer>
+<img class="shablon" src="mainPage.jpg" alt="#">
+</body>
+</html>

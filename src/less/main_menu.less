@@ -1,0 +1,76 @@
+@import "variable";
+//menu
+.header__main-menu{
+  display: flex;
+  margin: 0 -@interval;
+  position: relative;
+  align-items: center;
+  background-color: @main-color;
+}
+
+.menu__main{
+  display: flex;
+  flex-direction: row;
+  background-color: @main-color;
+}
+
+.button__hide-menu{
+  color: @gray-color;
+  margin-left: @interval;
+  padding: 8px 0;
+}
+
+.hide__menu{
+  display: none;
+  font-size: 30px;
+}
+
+.button__hide-menu:hover{
+  color: @back-color;
+}
+
+.button__hide-menu:active{
+  color: @orange_color;
+}
+
+.button__hide-menu:focus{
+  color: @orange_color;
+}
+
+.button__hide-menu:disabled{
+  color: @dark-color;
+}
+
+.menu__item{
+  display: flex;
+  color: @back-color;
+}
+
+.menu__link{
+  color: @gray-color;
+  font-size: 17px;
+  font-weight: 300;
+  padding: 13px 25px 13px 0;
+}
+
+.menu__link:link {
+  color: @gray-color;
+}
+
+.menu__link:visited {
+  color: @gray-color;
+}
+
+.menu__link:hover {
+  color: @back-color;
+}
+
+.menu__link:focus {
+  color: @orange_color;
+  fill: @orange_color;
+}
+
+.menu__link:active {
+  color: @orange_color;
+  fill: @orange_color;
+}
